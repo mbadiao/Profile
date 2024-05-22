@@ -54,8 +54,8 @@ class App extends React.Component {
             {/* Bouton pour afficher ou cacher l'image du profil */}
             <button className="btn btn-accent w-96 mt-20" onClick={this.toggleShow}>
               {shows
-                ? "Cacher l'image du profil"
-                : "Afficher l'image du profil"}
+                ? "Hide profile image"
+                : "Show profile image"}
             </button>
           </div>
         </div>
